@@ -40,7 +40,9 @@
 /* ----------------------------- */
 /* ==header */
 /* ----------------------------- */
-
+body{
+    background-color: #f8f9eb;
+} 
 
 header{
     background-image: url(../img/particles.png), url(../img/index.png), url(../img/index_fond.png);
@@ -63,8 +65,57 @@ header{
 /* ----------------------------- */
 /* ==main */
 /* ----------------------------- */
+main {
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+}
 
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+} 
 
+article{
+    display: flex;
+    height: 240px;
+    background-color: gray;
+} 
+
+hr{
+    width: 35%;
+    margin-left: 0;
+
+} 
+
+.article1{
+    background-color: #adceb8;
+    height: 240px;
+    padding-left: 3%;
+    padding-right: 3%;
+} 
+
+.article2{
+    background-color: #ecc7a1;
+    height: 240px;
+    padding-left: 3%;
+    padding-right: 3%;
+} 
+
+.article3{
+    background-color: #caeade;
+    height: 240px;
+    padding-left: 3%;
+    padding-right: 3%;
+} 
+
+.article4{
+    background-color: #adceb8;
+    height: 240px;
+    padding-left: 3%;
+    padding-right: 3%;
+} 
 /* ----------------------------- */
 /* ==aside */
 /* ----------------------------- */
